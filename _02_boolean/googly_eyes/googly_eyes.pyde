@@ -29,11 +29,15 @@ def draw():
     # console. Use it to find the center of the left eye.
     # fill(<your color>)
     # circle(x, y, diameter)
+    fill("#FFFFFF")
+    circle(308, 215, 200)
+    circle(489, 242, 200)
     println(str(mouseX) + ' ' + str(mouseY))
     
     # 6. Call the draw_gooly_eye function with the correct input parameters to draw
     # the pupil insdie the eye. Does it stay inside the eye and follow the mouse?
-    draw_googly_eye(309, 216, 200, 50)
+    draw_googly_eye(308, 215, 200, 50)
+    draw_googly_eye(489, 242, 200, 50)
     # 7. Repeat the steps above for the right eye and observe the googly eyes!
 
 # ======================= DO NOT MODIFY THE CODE BELOW ==========================
